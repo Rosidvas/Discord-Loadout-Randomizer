@@ -8,5 +8,5 @@ This Discord bot is designed to randomize TF2 Weapons from every class and form 
 The weapons are all situated in a MongoDB Database that the Discordbot can call for when a command from a user is made via Discord.
 
 ## Install the following before using:
- *Discord.Net 3.1
- *MongoDB
+ * Discord.Net 3.1
+ * MongoDB

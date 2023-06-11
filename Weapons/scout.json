@@ -1,0 +1,96 @@
+[{
+  "name": "Scattergun",
+  "slot": "primary",
+  "tf_class": "scout"
+},{
+  "name": "Force-A-Nature",
+  "slot": "primary",
+  "tf_class": "scout"
+},{
+  "name": "Shortstop",
+  "slot": "primary",
+  "tf_class": "scout"
+},{
+  "name": "Soda Popper",
+  "slot": "primary",
+  "tf_class": "scout"
+},{
+  "name": "Baby Face's Blaster",
+  "slot": "primary",
+  "tf_class": "scout"
+},{
+  "name": "Back Scatter",
+  "slot": "primary",
+  "tf_class": "scout"
+},{
+  "name": "Pistol",
+  "slot": "secondary",
+  "tf_class": [
+    "scout",
+    "engineer"
+  ]
+},{
+  "name": "Winger",
+  "slot": "secondary",
+  "tf_class": "scout"
+},{
+  "name": "Pretty Boy's Pocket Pistol",
+  "slot": "secondary",
+  "tf_class": "scout"
+},{
+  "name": "Flying Guillotine",
+  "slot": "secondary",
+  "tf_class": "scout"
+},{
+  "name": "Bonk! Atomic Punch",
+  "slot": "secondary",
+  "tf_class": "scout"
+},{
+  "name": "Crit-a-Cola",
+  "slot": "secondary",
+  "tf_class": "scout"
+},{
+  "name": "Mad Milk",
+  "slot": "secondary",
+  "tf_class": "scout"
+},{
+  "name": "Bat",
+  "slot": "melee",
+  "tf_class": "scout"
+},{
+  "name": "Holy Mackarel",
+  "slot": "melee",
+  "tf_class": "scout"
+},{
+  "name": "Unarmed Combat",
+  "slot": "melee",
+  "tf_class": "scout"
+},{
+  "name": "Sandman",
+  "slot": "melee",
+  "tf_class": "scout"
+},{
+  "name": "Candy Cane",
+  "slot": "melee",
+  "tf_class": "scout"
+},{
+  "name": "Boston Basher",
+  "slot": "melee",
+  "tf_class": "scout"
+},{
+  "name": "Sun-on-a-Stick",
+  "slot": "melee",
+  "tf_class": "scout"
+},{
+  "name": "Fan O'War",
+  "slot": "melee",
+  "tf_class": "scout"
+},{
+  "name": "Atomizer",
+  "slot": "melee",
+  "tf_class": "scout"
+},{
+  "name": "Wrap Assassin",
+  "slot": "melee",
+  "tf_class": "scout"
+}]

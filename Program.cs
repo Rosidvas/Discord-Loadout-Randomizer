@@ -44,7 +44,7 @@ namespace LoadoutRandomizer
             return Task.CompletedTask;
         }
 
-        //Bot Permissions integer: 17870285421632
+        
         private async Task RegisterCommands()
         {
             _commandHandler.setClient(_client);

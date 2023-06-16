@@ -1,0 +1,97 @@
+[{
+  "name": "Grenade Launcher",
+  "slot": "primary",
+  "tf_class": "demoman"
+},{
+  "name": "Loch-n-Load",
+  "slot": "primary",
+  "tf_class": "demoman"
+},{
+  "name": "Bootlegger",
+  "slot": "primary",
+  "tf_class": "demoman"
+},{
+  "name": "Loch-n-Load",
+  "slot": "primary",
+  "tf_class": "demoman"
+},{
+  "name": "Iron Bomber",
+  "slot": "primary",
+  "tf_class": "demoman"
+},{
+  "name": "Loose Cannon",
+  "slot": "primary",
+  "tf_class": "demoman"
+},{
+  "name": "B.A.S.E Jumper",
+  "slot": "primary",
+  "tf_class": "demoman"
+},{
+  "name": "Chargin' Targe",
+  "slot": "secondary",
+  "tf_class": "demoman"
+},{
+  "name": "Stickybomb Launcher",
+  "slot": "secondary",
+  "tf_class": "demoman"
+},{
+  "name": "Scottish Resistance",
+  "slot": "secondary",
+  "tf_class": "demoman"
+},{
+  "name": "Sticky Jumper",
+  "slot": "secondary",
+  "tf_class": "demoman"
+},{
+  "name": "Splendid Screen",
+  "slot": "secondary",
+  "tf_class": "demoman"
+},{
+  "name": "Tide Turner",
+  "slot": "secondary",
+  "tf_class": "demoman"
+},{
+  "name": "Quickiebomb Launcher",
+  "slot": "secondary",
+  "tf_class": "demoman"
+},{
+  "name": "Bottle",
+  "slot": "melee",
+  "tf_class": "demoman"
+},{
+  "name": "Scottish Handshake",
+  "slot": "melee",
+  "tf_class": "demoman"
+},{
+  "name": "Eyelander",
+  "slot": "melee",
+  "tf_class": "demoman"
+},{
+  "name": "Nessie's Nine Iron",
+  "slot": "melee",
+  "tf_class": "demoman"
+},{
+  "name": "Pain Train",
+  "slot": "melee",
+  "tf_class": "demoman"
+},{
+  "name": "Scotman's Skullcutter",
+  "slot": "melee",
+  "tf_class": "demoman"
+},{
+  "name": "Claidheamh Mòr",
+  "slot": "melee",
+  "tf_class": "demoman"
+},{
+  "name": "Ullapool Caber",
+  "slot": "melee",
+  "tf_class": "demoman"
+},{
+  "name": "Half-Zatoichi",
+  "slot": "melee",
+  "tf_class": "demoman"
+},{
+  "name": "Persian Persuador",
+  "slot": "melee",
+  "tf_class": "demoman"
+}]

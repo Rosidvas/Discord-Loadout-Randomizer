@@ -1,0 +1,57 @@
+[{
+  "name": "Shotgun",
+  "slot": "primary",
+  "tf_class": "engineer"
+},{
+  "name": "Frontier Justice",
+  "slot": "primary",
+  "tf_class": "engineer"
+},{
+  "name": "Widowmaker",
+  "slot": "primary",
+  "tf_class": "engineer"
+},{
+  "name": "Pomson 6000",
+  "slot": "primary",
+  "tf_class": "engineer"
+},{
+  "name": "Rescue Ranger",
+  "slot": "primary",
+  "tf_class": "engineer"
+},{
+  "name": "Panic Attack",
+  "slot": "primary",
+  "tf_class": "engineer"
+},{
+  "name": "Pistol",
+  "slot": "secondary",
+  "tf_class": "engineer"
+},{
+  "name": "Wrangler",
+  "slot": "secondary",
+  "tf_class": "engineer"
+},{
+  "name": "Short Circuit",
+  "slot": "secondary",
+  "tf_class": "engineer"
+},{
+  "name": "Wrench",
+  "slot": "melee",
+  "tf_class": "engineer"
+},{
+  "name": "Gunslinger",
+  "slot": "melee",
+  "tf_class": "engineer"
+},{
+  "name": "Southern Hospitality",
+  "slot": "melee",
+  "tf_class": "engineer"
+},{
+  "name": "Jag",
+  "slot": "melee",
+  "tf_class": "engineer"
+},{
+  "name": "Eureka Effect",
+  "slot": "melee",
+  "tf_class": "engineer"
+}]

@@ -1,0 +1,77 @@
+[{
+  "name": "Minigun",
+  "slot": "primary",
+  "tf_class": "heavy"
+},{
+  "name": "Natascha",
+  "slot": "primary",
+  "tf_class": "heavy"
+},{
+  "name": "Brass Beast",
+  "slot": "primary",
+  "tf_class": "heavy"
+},{
+  "name": "Tomislav",
+  "slot": "primary",
+  "tf_class": "heavy"
+},{
+  "name": "Huo-Long Heater",
+  "slot": "primary",
+  "tf_class": "heavy"
+},{
+  "name": "Shotgun",
+  "slot": "secondary",
+  "tf_class": "heavy"
+},{
+  "name": "Sandvich",
+  "slot": "secondary",
+  "tf_class": "heavy"
+},{
+  "name": "Dalokohs Bar",
+  "slot": "secondary",
+  "tf_class": "heavy"
+},{
+  "name": "Buffalo Steak Sandvich",
+  "slot": "secondary",
+  "tf_class": "heavy"
+},{
+  "name": "Family Business",
+  "slot": "secondary",
+  "tf_class": "heavy"
+},{
+  "name": "Panic Attack",
+  "slot": "secondary",
+  "tf_class": "heavy"
+},{
+  "name": "Second Banana",
+  "slot": "secondary",
+  "tf_class": "heavy"
+},{
+  "name": "Fists",
+  "slot": "melee",
+  "tf_class": "heavy"
+},{
+  "name": "Killing Gloves of Boxing",
+  "slot": "melee",
+  "tf_class": "heavy"
+},{
+  "name": "Gloves of Running Urgently",
+  "slot": "melee",
+  "tf_class": "heavy"
+},{
+  "name": "Warrior's Spirit",
+  "slot": "melee",
+  "tf_class": "heavy"
+},{
+  "name": "Fists of Steel",
+  "slot": "melee",
+  "tf_class": "heavy"
+},{
+  "name": "Eviction Notice",
+  "slot": "melee",
+  "tf_class": "heavy"
+},{
+  "name": "Holiday Punch",
+  "slot": "melee",
+  "tf_class": "heavy"
+}]

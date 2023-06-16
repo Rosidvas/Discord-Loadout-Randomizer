@@ -1,0 +1,107 @@
+[{
+  "name": "Rocket Launcher",
+  "slot": "primary",
+  "tf_class": "soldier"
+},{
+  "name": "Original",
+  "slot": "primary",
+  "tf_class": "soldier"
+},{
+  "name": "Black Box",
+  "slot": "primary",
+  "tf_class": "soldier"
+},{
+  "name": "Rocket Jumper",
+  "slot": "primary",
+  "tf_class": "soldier"
+},{
+  "name": "Liberty Launcher",
+  "slot": "primary",
+  "tf_class": "soldier"
+},{
+  "name": "Cow Mangler 5000",
+  "slot": "primary",
+  "tf_class": "soldier"
+},{
+  "name": "Air Strike",
+  "slot": "primary",
+  "tf_class": "soldier"
+},{
+  "name": "Beggar's Bazooka",
+  "slot": "primary",
+  "tf_class": "soldier"
+},{
+  "name": "Shotgun",
+  "slot": "secondary",
+  "tf_class": [
+    "soldier",
+    "pyro"
+  ]
+},{
+  "name": "Reserve Shooter",
+  "slot": "secondary",
+  "tf_class": [
+    "soldier",
+    "pyro"
+  ]
+},{
+  "name": "Buff Banner",
+  "slot": "secondary",
+  "tf_class": "soldier"
+},{
+  "name": "Concherer",
+  "slot": "secondary",
+  "tf_class": "soldier"
+},{
+  "name": "Batallion's Backuo",
+  "slot": "secondary",
+  "tf_class": "soldier"
+},{
+  "name": "Gunboats",
+  "slot": "secondary",
+  "tf_class": "soldier"
+},{
+  "name": "Mantreads",
+  "slot": "secondary",
+  "tf_class": "soldier"
+},{
+  "name": "Righteous Bison",
+  "slot": "secondary",
+  "tf_class": "soldier"
+},{
+  "name": "B.A.S.E Jumper",
+  "slot": "secondary",
+  "tf_class": "soldier"
+},{
+  "name": "Panic Attack",
+  "slot": "secondary",
+  "tf_class": "soldier"
+},{
+  "name": "Shovel",
+  "slot": "melee",
+  "tf_class": "soldier"
+},{
+  "name": "Equalizer",
+  "slot": "melee",
+  "tf_class": "soldier"
+},{
+  "name": "Pain Train",
+  "slot": "melee",
+  "tf_class": "soldier"
+},{
+  "name": "Half-Zatoichi",
+  "slot": "melee",
+  "tf_class": "soldier"
+},{
+  "name": "Disciplinary Action",
+  "slot": "melee",
+  "tf_class": "soldier"
+},{
+  "name": "Market Gardener",
+  "slot": "melee",
+  "tf_class": "soldier"
+},{
+  "name": "Escape Plan",
+  "slot": "melee",
+  "tf_class": "soldier"
+}]

@@ -1,0 +1,169 @@
+[{
+  "_id": {
+    "$oid": "646e06a0eccfff0864c7fc96"
+  },
+  "name": "Flame Thrower",
+  "slot": "primary",
+  "tf_class": "pyro"
+},{
+  "_id": {
+    "$oid": "646e06a0eccfff0864c7fc97"
+  },
+  "name": "Backburner",
+  "slot": "primary",
+  "tf_class": "pyro"
+},{
+  "_id": {
+    "$oid": "646e06a0eccfff0864c7fc98"
+  },
+  "name": "Degreaser",
+  "slot": "primary",
+  "tf_class": "pyro"
+},{
+  "_id": {
+    "$oid": "646e06a0eccfff0864c7fc99"
+  },
+  "name": "Phlogistinator",
+  "slot": "primary",
+  "tf_class": "pyro"
+},{
+  "_id": {
+    "$oid": "646e06a0eccfff0864c7fc9a"
+  },
+  "name": "Rainblower",
+  "slot": "primary",
+  "tf_class": "pyro"
+},{
+  "_id": {
+    "$oid": "646e06a0eccfff0864c7fc9b"
+  },
+  "name": "Dragon's Fury",
+  "slot": "primary",
+  "tf_class": "pyro"
+},{
+  "_id": {
+    "$oid": "646e08caeccfff0864c7fc9c"
+  },
+  "name": "Shotgun",
+  "slot": "secondary",
+  "tf_class": "pyro"
+},{
+  "_id": {
+    "$oid": "646e08caeccfff0864c7fc9d"
+  },
+  "name": "Flare Gun",
+  "slot": "secondary",
+  "tf_class": "pyro"
+},{
+  "_id": {
+    "$oid": "646e08caeccfff0864c7fc9e"
+  },
+  "name": "Detonator",
+  "slot": "secondary",
+  "tf_class": "pyro"
+},{
+  "_id": {
+    "$oid": "646e08caeccfff0864c7fc9f"
+  },
+  "name": "Reserve Shooter",
+  "slot": "secondary",
+  "tf_class": "pyro"
+},{
+  "_id": {
+    "$oid": "646e08caeccfff0864c7fca0"
+  },
+  "name": "Manmelter",
+  "slot": "secondary",
+  "tf_class": "pyro"
+},{
+  "_id": {
+    "$oid": "646e08caeccfff0864c7fca1"
+  },
+  "name": "Scorch Shot",
+  "slot": "secondary",
+  "tf_class": "pyro"
+},{
+  "_id": {
+    "$oid": "646e08caeccfff0864c7fca2"
+  },
+  "name": "Panic Attack",
+  "slot": "secondary",
+  "tf_class": "pyro"
+},{
+  "_id": {
+    "$oid": "646e08caeccfff0864c7fca3"
+  },
+  "name": "Thermal Thruster",
+  "slot": "secondary",
+  "tf_class": "pyro"
+},{
+  "_id": {
+    "$oid": "646e08caeccfff0864c7fca4"
+  },
+  "name": "Gas Passer",
+  "slot": "secondary",
+  "tf_class": "pyro"
+},{
+  "_id": {
+    "$oid": "646e0a55eccfff0864c7fca5"
+  },
+  "name": "Fire Axe",
+  "slot": "melee",
+  "tf_class": "pyro"
+},{
+  "_id": {
+    "$oid": "646e0a55eccfff0864c7fca6"
+  },
+  "name": "Axtinguisher",
+  "slot": "melee",
+  "tf_class": "pyro"
+},{
+  "_id": {
+    "$oid": "646e0a55eccfff0864c7fca7"
+  },
+  "name": "Homewrecker",
+  "slot": "melee",
+  "tf_class": "pyro"
+},{
+  "_id": {
+    "$oid": "646e0a55eccfff0864c7fca8"
+  },
+  "name": "Powerjack",
+  "slot": "melee",
+  "tf_class": "pyro"
+},{
+  "_id": {
+    "$oid": "646e0a55eccfff0864c7fca9"
+  },
+  "name": "Back Scratcher",
+  "slot": "melee",
+  "tf_class": "pyro"
+},{
+  "_id": {
+    "$oid": "646e0a55eccfff0864c7fcaa"
+  },
+  "name": "Sharpened Volcano Fragment",
+  "slot": "melee",
+  "tf_class": "pyro"
+},{
+  "_id": {
+    "$oid": "646e0a55eccfff0864c7fcab"
+  },
+  "name": "Third Degree",
+  "slot": "melee",
+  "tf_class": "pyro"
+},{
+  "_id": {
+    "$oid": "646e0a55eccfff0864c7fcac"
+  },
+  "name": "Lollichop",
+  "slot": "melee",
+  "tf_class": "pyro"
+},{
+  "_id": {
+    "$oid": "646e0a55eccfff0864c7fcad"
+  },
+  "name": "Hot Hand",
+  "slot": "melee",
+  "tf_class": "pyro"
+}]

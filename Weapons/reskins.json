@@ -1,0 +1,237 @@
+[{
+  "name": "Lugermorph",
+  "slot": "secondary",
+  "replace": "pistol",
+  "tf_class": [
+    "scout",
+    "engineer"
+  ]
+},{
+  "name": "C.A.P.P.E.R",
+  "slot": "secondary",
+  "replace": "pistol",
+  "tf_class": [
+    "scout",
+    "engineer"
+  ]
+},{
+  "name": "Mutated Milk",
+  "slot": "secondary",
+  "replace": "Mad Milk",
+  "tf_class": "scout"
+},{
+  "name": "Batsaber",
+  "slot": "melee",
+  "replace": "Bat",
+  "tf_class": "scout"
+},{
+  "name": "Unarmed Combat",
+  "slot": "melee",
+  "replace": "Holy Mackerel",
+  "tf_class": "scout"
+},{
+  "name": "Three-Rune Blade",
+  "slot": "melee",
+  "replace": "Boston Basher",
+  "tf_class": "scout"
+},{
+  "name": "Nostromo Napalmer",
+  "slot": "primary",
+  "replace": "Flame Thrower",
+  "tf_class": "pyro"
+},{
+  "name": "Postal Pummeler",
+  "slot": "melee",
+  "replace": "Axtinguisher",
+  "tf_class": "pyro"
+},{
+  "name": "Maul",
+  "slot": "melee",
+  "replace": "Homewrecker",
+  "tf_class": "pyro"
+},{
+  "name": "Iron Curtain",
+  "slot": "primary",
+  "replace": "Minigun",
+  "tf_class": "heavy"
+},{
+  "name": "Robo-Sandvich",
+  "slot": "secondary",
+  "replace": "Sandvich",
+  "tf_class": "heavy"
+},{
+  "name": "Fishcake",
+  "slot": "secondary",
+  "replace": "Dalokohs Bar",
+  "tf_class": "heavy"
+},{
+  "name": "Bread Bite",
+  "slot": "melee",
+  "replace": "Fists",
+  "tf_class": "heavy"
+},{
+  "name": "Giger Counter",
+  "slot": "secondary",
+  "replace": "Wrangler",
+  "tf_class": "engineer"
+},{
+  "name": "AWPer Hand",
+  "slot": "primary",
+  "replace": "Sniper Rifle",
+  "tf_class": "sniper"
+},{
+  "name": "Fortified Compound",
+  "slot": "primary",
+  "replace": "Huntsman",
+  "tf_class": "sniper"
+},{
+  "name": "Shooting Star",
+  "slot": "primary",
+  "replace": "Machina",
+  "tf_class": "sniper"
+},{
+  "name": "Self-Aware Beuty Mark",
+  "slot": "secondary",
+  "replace": "Jarate",
+  "tf_class": "sniper"
+},{
+  "name": "Big Kill",
+  "slot": "primary",
+  "replace": "Revolver",
+  "tf_class": "spy"
+},{
+  "name": "Black Rose",
+  "slot": "melee",
+  "replace": "Knife",
+  "tf_class": "spy"
+},{
+  "name": "Wange Prick",
+  "slot": "melee",
+  "replace": "Your Eternal Reward",
+  "tf_class": "spy"
+},{
+  "name": "Enthusiast's Timepiece",
+  "slot": "watch",
+  "replace": "Invis Watch",
+  "tf_class": "spy"
+},{
+  "name": "Quäckenbirdt",
+  "slot": "watch",
+  "replace": "Invis Watch",
+  "tf_class": "spy"
+},{
+  "name": "Ap-Sap",
+  "slot": "sapper",
+  "replace": "Sapper",
+  "tf_class": "spy"
+},{
+  "name": "Snack Attack",
+  "slot": "sapper",
+  "replace": "Sapper",
+  "tf_class": "spy"
+},{
+  "name": "Frying Pan",
+  "slot": "melee",
+  "replace": "stock melee",
+  "tf_class": [
+    "scout",
+    "soldier",
+    "pyro",
+    "demoman",
+    "heavy",
+    "medic",
+    "sniper"
+  ]
+},{
+  "name": "Conscientious Objector",
+  "slot": "melee",
+  "replace": "stock melee",
+  "tf_class": [
+    "scout",
+    "soldier",
+    "pyro",
+    "demoman",
+    "heavy",
+    "medic",
+    "sniper"
+  ]
+},{
+  "name": "Memory Maker",
+  "slot": "melee",
+  "replace": "stock melee",
+  "tf_class": [
+    "scout",
+    "soldier",
+    "pyro",
+    "demoman",
+    "heavy",
+    "medic",
+    "sniper"
+  ]
+},{
+  "name": "Bat Outta Hell",
+  "slot": "melee",
+  "replace": "stock melee",
+  "tf_class": [
+    "scout",
+    "soldier",
+    "pyro",
+    "demoman",
+    "heavy",
+    "medic",
+    "sniper"
+  ]
+},{
+  "name": "Memory Maker",
+  "slot": "melee",
+  "replace": "stock melee",
+  "tf_class": [
+    "scout",
+    "soldier",
+    "pyro",
+    "demoman",
+    "heavy",
+    "medic",
+    "sniper"
+  ]
+},{
+  "name": "Ham Shank",
+  "slot": "melee",
+  "replace": "stock melee",
+  "tf_class": [
+    "scout",
+    "soldier",
+    "pyro",
+    "demoman",
+    "heavy",
+    "medic",
+    "sniper"
+  ]
+},{
+  "name": "Crossing Guard",
+  "slot": "melee",
+  "replace": "stock melee",
+  "tf_class": [
+    "scout",
+    "soldier",
+    "pyro",
+    "demoman",
+    "heavy",
+    "medic",
+    "sniper"
+  ]
+},{
+  "name": "Necro Smasher",
+  "slot": "melee",
+  "replace": "stock melee",
+  "tf_class": [
+    "scout",
+    "soldier",
+    "pyro",
+    "demoman",
+    "heavy",
+    "engineer",
+    "medic",
+    "sniper"
+  ]
+}]

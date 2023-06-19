@@ -1,0 +1,69 @@
+[{
+  "name": "SMG",
+  "slot": "secondary",
+  "tf_class": "sniper"
+},{
+  "name": "Jarate",
+  "slot": "secondary",
+  "tf_class": "sniper"
+},{
+  "name": "Razorback",
+  "slot": "secondary",
+  "tf_class": "sniper"
+},{
+  "name": "Darwin's Danger Shield",
+  "slot": "secondary",
+  "tf_class": "sniper"
+},{
+  "name": "Cozy Camper",
+  "slot": "secondary",
+  "tf_class": "sniper"
+},{
+  "name": "Cleaner's Carbine",
+  "slot": "secondary",
+  "tf_class": "sniper"
+},{
+  "name": "Sniper Rifle",
+  "slot": "primary",
+  "tf_class": "sniper"
+},{
+  "name": "Huntsman",
+  "slot": "primary",
+  "tf_class": "sniper"
+},{
+  "name": "Sydney Sleeper",
+  "slot": "primary",
+  "tf_class": "sniper"
+},{
+  "name": "Bazaar Bargain",
+  "slot": "primary",
+  "tf_class": "sniper"
+},{
+  "name": "Machina",
+  "slot": "primary",
+  "tf_class": "sniper"
+},{
+  "name": "Hitman's Heatmaker",
+  "slot": "primary",
+  "tf_class": "sniper"
+},{
+  "name": "Classic",
+  "slot": "primary",
+  "tf_class": "sniper"
+},{
+  "name": "Kukri",
+  "slot": "melee",
+  "tf_class": "sniper"
+},{
+  "name": "Tribalman's Shiv",
+  "slot": "melee",
+  "tf_class": "sniper"
+},{
+  "name": "Bushwacka",
+  "slot": "melee",
+  "tf_class": "sniper"
+},{
+  "name": "Shahanshah",
+  "slot": "melee",
+  "tf_class": "sniper"
+}]

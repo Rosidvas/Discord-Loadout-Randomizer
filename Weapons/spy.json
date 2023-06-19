@@ -1,0 +1,61 @@
+[{
+  "name": "Revolver",
+  "slot": "primary",
+  "tf_class": "spy"
+},{
+  "name": "Ambassador",
+  "slot": "primary",
+  "tf_class": "spy"
+},{
+  "name": "L'Etranger",
+  "slot": "primary",
+  "tf_class": "spy"
+},{
+  "name": "Enforcer",
+  "slot": "primary",
+  "tf_class": "spy"
+},{
+  "name": "Diamondback",
+  "slot": "primary",
+  "tf_class": "spy"
+},{
+  "name": "Knife",
+  "slot": "melee",
+  "tf_class": "spy"
+},{
+  "name": "Your Eternal Reward",
+  "slot": "melee",
+  "tf_class": "spy"
+},{
+  "name": "Conniver's Kunai",
+  "slot": "melee",
+  "tf_class": "spy"
+},{
+  "name": "Big Earner",
+  "slot": "melee",
+  "tf_class": "spy"
+},{
+  "name": "Spy-cicle",
+  "slot": "melee",
+  "tf_class": "spy"
+},{
+  "name": "Invis Watch",
+  "slot": "watch",
+  "tf_class": "spy"
+},{
+  "name": "Cloak and Dagger",
+  "slot": "watch",
+  "tf_class": "spy"
+},{
+  "name": "Invis Watch",
+  "slot": "watch",
+  "tf_class": "spy"
+},{
+  "name": "Sapper",
+  "slot": "sapper",
+  "tf_class": "spy"
+},{
+  "name": "Red-Tape Recorder",
+  "slot": "sapper",
+  "tf_class": "spy"
+}]

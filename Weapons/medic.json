@@ -1,0 +1,53 @@
+[{
+  "name": "Syringe Gun",
+  "slot": "primary",
+  "tf_class": "medic"
+},{
+  "name": "Blutsauger",
+  "slot": "primary",
+  "tf_class": "medic"
+},{
+  "name": "Crusader's Crossbow",
+  "slot": "primary",
+  "tf_class": "medic"
+},{
+  "name": "Overdose",
+  "slot": "primary",
+  "tf_class": "medic"
+},{
+  "name": "Medi Gun",
+  "slot": "secondary",
+  "tf_class": "medic"
+},{
+  "name": "Kritzkrieg",
+  "slot": "secondary",
+  "tf_class": "medic"
+},{
+  "name": "Quick-Fix",
+  "slot": "secondary",
+  "tf_class": "medic"
+},{
+  "name": "Vaccinator",
+  "slot": "secondary",
+  "tf_class": "medic"
+},{
+  "name": "Bonesaw",
+  "slot": "melee",
+  "tf_class": "medic"
+},{
+  "name": "Ubersaw",
+  "slot": "melee",
+  "tf_class": "medic"
+},{
+  "name": "Vita-Saw",
+  "slot": "melee",
+  "tf_class": "medic"
+},{
+  "name": "Amputator",
+  "slot": "melee",
+  "tf_class": "medic"
+},{
+  "name": "Solemn Vow",
+  "slot": "melee",
+  "tf_class": "medic"
+}]

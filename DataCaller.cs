@@ -7,6 +7,8 @@ using MongoDB;
 using MongoDB.Driver;
 using MongoDB.Bson;
 using MongoDB.Driver.Linq;
+using Discord;
+using System.Reflection.Metadata;
 
 namespace LoadoutRandomizer
 {
@@ -136,7 +138,7 @@ namespace LoadoutRandomizer
             return sapper;
         }
 
-        public string callReskin(string parameter)
+        public string[] callReskin(string parameter)
         {
             string reskin;
             string replace;
@@ -147,7 +149,8 @@ namespace LoadoutRandomizer
             var collection = database.GetCollection<BsonDocument>("reskins");
             if (parameter == "invalid")
             {
-                return ("invalid Request");
+                string[] error = { "invalid Request", "parameter not found" };
+                return error;
             }
 
             var filter = Builders<BsonDocument>.Filter.Or(
@@ -172,8 +175,44 @@ namespace LoadoutRandomizer
             replace = replaceArray[randomIndex];
             tfclass = parameter;
 
-            string response = $"Weapon: {reskin} \n This replaces the {replace} used by the {tfclass}";
+            string[] response = { reskin, replace };
             return response;
+        }
+
+        //Gets Images of the called Weapons
+        public string callImages(string name, string tfClass, bool reskin)
+        {
+            string collectionName = tfClass;
+            string image = "nothing";
+            var filter = Builders<BsonDocument>.Filter.Eq("name", name);
+
+            if (reskin)
+            {
+                collectionName = "reskins";
+                filter = Builders<BsonDocument>.Filter.And(
+                    Builders<BsonDocument>.Filter.Or(
+                Builders<BsonDocument>.Filter.Eq("tf_class", tfClass),
+                Builders<BsonDocument>.Filter.ElemMatch("tf_class", Builders<BsonDocument>.Filter.Eq("tf_class", tfClass))       
+                    ),Builders<BsonDocument>.Filter.Eq("name", name));
+            }
+
+            var client = new MongoClient(_connectionString);
+            var database = client.GetDatabase(_dataBankName);
+            var collection = database.GetCollection<BsonDocument>(collectionName);
+
+
+            var projection = Builders<BsonDocument>.Projection
+                .Include("image")
+                .Exclude("_id");
+            
+
+            var resultDocument = collection.Find(filter).Project(projection).FirstOrDefault();
+            if (resultDocument != null)
+            {
+                image = resultDocument["image"].AsString; // Retrieve the URL string
+            }
+
+            return image;
         }
 
         //In case of different classes, the programm will select which class will be used.

@@ -3,6 +3,7 @@ using Discord.Commands;
 using Discord.WebSocket;
 using System;
 using System.Collections.Generic;
+using System.Formats.Asn1;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -40,17 +41,20 @@ namespace LoadoutRandomizer
         public async Task RollRandom(SocketSlashCommand command)
         {
             // Uses DataCaller to get the primary, secondary and melee weapons
-
             string classrequest = (string)command.Data.Options.First().Value;
-
             string tfClass = _DataCaller.collectionRandomizer(classrequest);
 
             //Special case: Spy has a different loadout set than the other class
             string watch = "Invis Watch";
+            string watchImg = "Image not found";
             string sapper = "Sapper";
+            string sapperImg = "Image not found";
             string primary;
+            string primaryImg = "Image not found";
             string secondary = "";
+            string secondaryImg = "Image not found";
             string melee = "";
+            string meleeImg = "Image not found";
 
             if (tfClass == "spy")
             {
@@ -58,12 +62,23 @@ namespace LoadoutRandomizer
                 watch = _DataCaller.callWatch();
                 primary = _DataCaller.callPrimary(tfClass);
                 melee = _DataCaller.callMelee(tfClass);
+                
+                //calls the Images of each spy weapon
+                sapperImg = _DataCaller.callImages(sapper, tfClass, false);
+                watchImg = _DataCaller.callImages(watch, tfClass, false);
+                meleeImg = _DataCaller.callImages(melee, tfClass, false);
+                primaryImg = _DataCaller.callImages(primary, tfClass, false);
             }
             else
             {
                 primary = _DataCaller.callPrimary(tfClass);
                 secondary = _DataCaller.callSecondary(tfClass);
                 melee = _DataCaller.callMelee(tfClass);
+
+                //calls the Images of each weapon
+                primaryImg = _DataCaller.callImages(primary, tfClass, false);
+                secondaryImg = _DataCaller.callImages(secondary, tfClass, false);
+                meleeImg = _DataCaller.callImages(melee, tfClass, false);
             }
             
             if (melee == "invalid Request")
@@ -72,42 +87,61 @@ namespace LoadoutRandomizer
                 return;
             }
 
-            string description = $"Primary: { primary} \n" + $"Secondary: { secondary} \n" + $"Melee: { melee}";
-            
+            var builder = new EmbedBuilder();
+
             if (tfClass == "spy")
             {
-                description = $"Primary: {primary} \n" + $"Sapper: {sapper} \n" + $"Melee: {melee} \n" + $"Watch: {watch}";
-            }
-
-            var builder = new EmbedBuilder()
+                builder = new EmbedBuilder()
                 .WithColor(new Color(255, 140, 0))
                 .WithTitle($"Your loadout for the {tfClass} is..")
-                .WithDescription(description)
+                .AddField($"Primary: {primary}", $"[image]({primaryImg})")
+                .AddField($"Sapper: {sapper}", $"[image]({sapperImg})")
+                .AddField($"Melee: {melee}", $"[image]({meleeImg})")
+                .AddField($"Watch: {watch}", $"[image]({watchImg})")
                 .AddField("Looking for the Reskin?", "Weapon reskins aren't guaranteed to be owned freely by everyone. \n" +
                 "If you want roll reskins, check out the /roll-reskin command.")
                 .WithFooter(footer => footer.Text = "enhance your Tf2 experience!");
+            }
+            else
+            {
+                builder = new EmbedBuilder()
+                .WithColor(new Color(255, 140, 0))
+                .WithTitle($"Your loadout for the {tfClass} is..")
+                .AddField($"Primary: {primary}", $"[image]({primaryImg})")
+                .AddField($"Secondary: {secondary}", $"[image]({secondaryImg})")
+                .AddField($"Melee: {melee}", $"[image]({meleeImg})")
+                .AddField("Looking for the Reskin?", "Weapon reskins aren't guaranteed to be owned freely by everyone. \n" +
+                "If you want roll reskins, check out the /roll-reskin command.")
+                .WithFooter(footer => footer.Text = "enhance your Tf2 experience!");
+            }
+            
 
             var response = builder.Build();
 
             await command.RespondAsync(embed: response);
         }
 
+        //Roll a Reskin of a weapon
         public async Task RollReskin(SocketSlashCommand command)
         {
             string classrequest = (string)command.Data.Options.First().Value;
             string tfClass = _DataCaller.collectionRandomizer(classrequest);
-            string description = _DataCaller.callReskin(tfClass);
+            string[] reskin = _DataCaller.callReskin(tfClass);
 
-            if (description == "invalid Request")
+            if (reskin.Contains("invalid Request"))
             {
+
                 InvalidCommand(command);
                 return;
             }
 
+            string Image = _DataCaller.callImages(reskin[0], tfClass, true);
+
             var builder = new EmbedBuilder()
                 .WithColor(new Color(255, 140, 0))
                 .WithTitle($"Your rolled reskin is..")
-                .WithDescription(description)
+                .WithDescription($"Weapon: {reskin[0]} \n This replaces the {reskin[1]} used by the {tfClass}")
+                .WithImageUrl(Image)
                 .AddField("Missing a Reskin?", "Some reskins such as festived, botkillers and australium are not part of this command." +
                 "And others aren't included since they can be acquired freely through the game itself."+
                 "The reskins rolled here are ones that can't be acquired normally by just playing the game.")

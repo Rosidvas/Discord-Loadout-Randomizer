@@ -1,4 +1,4 @@
-# Discord-Loadout-Randomizer
+# Discord-TF2-Loadout-Randomizer
 Discord Bot powered by MongoDB
 
 This is a C# Project with the goal of using MongoDB
